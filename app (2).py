@@ -19,6 +19,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 import tensorflow as tf
 import random
+pd.read_csv("path/to/your/heart.csv")
 
 # Set seed for reproducibility
 SEED = 42
